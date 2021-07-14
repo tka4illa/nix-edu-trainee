@@ -2,6 +2,7 @@
     include "separeted-parts/head.html";
     include "separeted-parts/header.html";
     include "separeted-parts/menu.html";
+    include "separeted-parts/createpostlink.html";
     ?>
 <html><p>ur profile here. soon</p></html>
 <?php

@@ -2,43 +2,44 @@
     color: white;
     width: 100%;
     text-align: center;
-    background-color: orange;
+    background-color: aliceblue;
     position: center;
     padding: 30px;
-    margin-bottom: -25px;
 
 }
+.tb {
+    color: white;
+    background-color: #99aeff;
+    padding: 10px;
+    border-radius: 15px;
+}
 .descript {
-    border-top: 1px dashed black;
     width: 100%;
     text-align: center;
-    display: block;
-    padding: 15px;
-    color: gainsboro;
-    background-color: gray;
+    color: #addcff;
+    background-color: aliceblue;
     position: relative;
-    margin-bottom: -18px;
+    padding: 10px;
 }
 .navi {
-    background-color: orange;
+    background-color: aliceblue;
     position: relative;
     width: 100%;
     display: block;
     padding: 15px;
     text-align: center;
-    border-top: 1px dashed black;
 }
 a.menuitem {
     width: 100%;
-    background-color: gray;
+    background-color: #99aeff;
     padding: 15px;
-    border: 1px dashed black;
-    color: gainsboro;
+    color: white;
     text-decoration: none;
+    border-radius: 10px;
 }
 .foot {
-    color: gainsboro;
-    background-color: gray;
+    color: #1d5698;
+    background-color: #99aeff;
     width: 100%;
     padding: 15px;
     text-align: center;
@@ -52,15 +53,33 @@ a.gitLink{
 .regForm {
     width: 100%;
     position: center;
-    background-color: orange;
+    background-color: aliceblue;
     text-align: center;
     padding: 15px;
-    border: 1px dashed black;
 }
-.cowboyImage {
+
+.postForm {
+    padding: 15px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.post {
+    width: 60%;
+    height: 200px;
+    background-color: aliceblue;
     display: block;
-    size: 800px;
+    margin: auto;
+    color: #1d5698;
+    border: 1px solid #99aeff;
 }
-
-
-
+.postdate {
+    position: relative;
+    text-align: end;
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    background-color: honeydew;
+    color: #1d5698;
+    border: 1px solid #99aeff;
+}
